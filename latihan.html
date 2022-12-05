@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas</title>
+</head>
+
+<body>
+    <h3>Latihan Perulangan Javascript</h3>
+    <h3>Bella Calista</h3>
+    <script>
+        //Tugas 1
+        console.log('Tugas 1');
+        var orang1 = 1;
+        while (orang1 <= 20) {
+            console.log('Halo, saya orang ke ' + orang1);
+            orang1++;
+        }
+
+        //Tugas 2
+        console.log('Tugas 2');
+        for (var orang2 = 1; orang2 <= 20; orang2++) {
+            console.log('Halo, saya orang ke ' + orang2);
+        }
+
+        //Tugas 3
+        console.log('Tugas 3');
+        var orang3 = 1;
+        while (orang3 <= 20) {
+            if (orang3 % 2 !== 0) {
+                console.log('Halo, saya orang ke ' + orang3);
+            }
+            orang3++;
+        }
+
+        //Tugas 4
+        console.log('Tugas 4');
+        for(var orang4 = 1; orang4<=20; orang4++)
+        {
+            if(orang4 % 2 !== 0)
+            {
+                console.log('Halo, saya orang ke ' + orang4);
+            }
+        }
+
+        //Tugas 5
+        console.log('Tugas 5');
+        var kata = 5;
+        var baris = "";
+        for(var huruf = 1; huruf <= kata; huruf++)
+        {
+            kolom = "";
+            for(h = 1; h <= kata; h++)
+            {
+                kolom += 'O';
+            }
+            baris += kolom + '\n';
+        }
+        console.log(baris);
+    </script>
+</body>
+
+</html>

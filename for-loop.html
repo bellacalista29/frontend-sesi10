@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Loop</title>
+</head>
+<body>
+    <script>
+        //cetak angka 1-10 menggunakan for loop
+        // for(angka=1; angka<=10; angka++)
+        // {
+        //     console.log(angka);
+        // }
+
+        //cetak angka 10 ke 1 menggunakan for loop
+        // for(angka=10; angka>=1; angka--)
+        // {
+        //     console.log(angka);
+        // }
+
+        //cetak angka genap 1-10 menggunakan for loop
+        // for(angka=1; angka<=10; angka++)
+        // {
+        //     if (angka % 2 == 0) {
+        //         console.log(angka);
+        //     }
+        // }
+
+        //cetak angka ganjil 1-10 menggunakan for loop
+        // for(angka=1; angka<=10; angka++)
+        // {
+        //     if(angka % 2 !== 0)
+        //     {
+        //         console.log(angka);
+        //     }
+        // }
+
+        //cetak huruf vokal (a,i,u,e,o) pada kalimat bootcamp cimb niaga
+
+        var kalimat = 'bootcamp cimb niaga';
+        // for(i of kalimat)
+        // {
+        //     if(i == 'a' || i == 'i' || i == 'u' || i == 'e' || i == 'o')
+        //     {
+        //         console.log(i);
+        //     }
+        // }
+
+        // for(var i = 0; i < kalimat.length; i++)
+        // {
+        //     if(kalimat[i] == 'a' || kalimat[i] == 'i' || kalimat[i] == 'u' || kalimat[i] == 'e' || kalimat[i] == 'o')
+        //     {
+        //         console.log(kalimat[i]);
+        //     }
+        // }
+
+        // cetak huruf selain huruf vokal/konsonan (a,i,u,e,o) pada kalimat bootcamp cimb niaga
+        // for(var i = 0; i < kalimat.length; i++)
+        // {
+        //     if(kalimat[i] !== 'a' && kalimat[i] !== 'i' && kalimat[i] !== 'u' && kalimat[i] !== 'e' && kalimat[i] !== 'o')
+        //     {
+        //         console.log(kalimat[i]);
+        //     }
+        // }
+
+        // cetak huruf selain huruf vokal/konsonan (a,i,u,e,o) pada kalimat bootcamp cimb niaga secara horizontal
+        var huruf = "";
+        for(var i = 0; i < kalimat.length; i++)
+        {
+            if(kalimat[i] !== 'a' && kalimat[i] !== 'i' && kalimat[i] !== 'u' && kalimat[i] !== 'e' && kalimat[i] !== 'o' && kalimat[i] !== " ")
+            {
+               huruf += kalimat[i];
+            }
+        }
+        console.log(huruf);
+    </script>
+</body>
+</html>
